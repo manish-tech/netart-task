@@ -1,0 +1,35 @@
+.footer{
+    background-color: #ed4c38;
+    height: 150px;
+    margin: 0.86em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: var(--font-size);
+}
+.footer_a{
+    min-width: 0;
+    margin-left: 0.8em;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.color-white{
+    color: white;
+}
+.dis-inline{
+    display: inline;
+}
+
+.phone{
+    width: 15%;
+}
+@media screen and (max-width: 690px){
+    .phone{
+        width: 25%;
+    }
+}
+.mg-l-0-86em{
+    margin-left: 0.86em;
+}
